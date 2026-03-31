@@ -24,7 +24,9 @@
         "battery#bat2",
         "clock",
         "tray",
+        "bluetooth",      
         "custom/power"
+        
     ],
     // Modules configuration
     // "sway/workspaces": {
@@ -219,4 +221,4 @@
 	    "on-click": "wlogout"
 		}
     }
-}
+
