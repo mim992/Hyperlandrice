@@ -20,12 +20,13 @@
         "mpd",
         "pulseaudio",
         "network",
+        "tray",
         "battery",
         "battery#bat2",
         "clock",
-        "tray",
         "bluetooth",      
         "custom/power"
+        
         
     ],
     // Modules configuration
@@ -117,14 +118,14 @@
         // "icon-size": 21,
         "spacing": 10
         // "icons": {
-        //   "blueman": "bluetooth",
+        //"blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%d-%m-%Y}"
     },
     "cpu": {
         "format": "{usage}% ",
